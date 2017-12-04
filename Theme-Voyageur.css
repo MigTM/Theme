@@ -51,7 +51,7 @@ body::after,
     transform: translateY(-200px); 
     font-size: 12px;
     pointer-events: none;
-    animation: advert 5s infinite
+    animation: advert 60s infinite
 }
 @keyframes advert {
     0% {
