@@ -36,7 +36,23 @@ body::after,
 
 /* effet logo et écriture thème et speudo */
 
-
+.guilds-wrapper .guild-separator:after {
+    content: "Theme Voyageur of Destiny";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -4px;
+    left: 111px;
+    top: 1222px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: advert 60s infinite
+}
 @keyframes advert {
     0% {
         transform: translateY(0);
