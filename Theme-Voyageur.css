@@ -1,0 +1,248 @@
+:root {
+    --main-color: rgb(124,143,147);
+    --hover-color: rgb(124,143,147);
+    --couleur-theme: rgb(124,143,147);
+    --couleur-theme-0-35: rgba(124,143,147,0.35);
+    --couleur-theme-0-25: rgba(124,143,147,0.25);
+    --couleur-theme-0-5: rgba(124,143,147,0.5);
+    --couleur-theme-0-2: rgba(124,143,147,0.2);
+    --couleur-theme-0-8: rgba(124,143,147,0.8);
+    --couleur-them-0-3: rgba(124,143,147,0.3);
+    --couleur-theme-0-2: rgba(124,143,147,0.2);
+    --couleur-theme-0-008: rgba(124,143,147,0.008);
+    --couleur-blanc: white;
+    --couleur-rouge: rgb(240,0,6);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+    --color-deco: rgb(240,0,6);
+    
+}
+
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://puu.sh/yxTNV/472cf3d59e.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+
+
+/* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
+
+/* effet logo et écriture thème et speudo */
+
+.guilds-wrapper .guild-separator:after {
+    content: "Theme Voyageur of Destiny";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -4px;
+    left: 111px;
+    top: 1222px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: advert 5s infinite
+}
+@keyframes advert {
+    0% {
+        transform: translateY(0);
+    }
+    0.5% {
+        transform: translateY(0);
+    }
+    5.5% {
+        transform: translateY(-200px);
+    }
+    45.5% {
+        transform: translateY(-200px);
+    }
+    50.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.guilds-wrapper .guild-separator:before {
+    content: "By MigTM";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    width: 100%;
+    top: -4px;
+    left: 150px;
+    top: 1222px;
+    position: fixed;
+    padding: 5px 15px;
+    transform: translateY(-200px);
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTM 60s infinite
+
+}
+@keyframes MigTM {
+    0% {
+        transform: translateY(0);
+    }
+    45.5% {
+        transform: translateY(0);
+    }
+    50.5% {
+        transform: translateY(-200px);
+    }
+    90.5% {
+        transform: translateY(-200px);
+    }
+    95.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.titleBar-3_fDwJ::after {
+    content: url(https://puu.sh/yziIG/fec378a8a3.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 28.50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: adverte 60s infinite
+}
+@keyframes adverte {
+    0% {
+        transform: translateY(0);
+    }
+    0.5% {
+        transform: translateY(0);
+    }
+    5.5% {
+        transform: translateY(-200px);
+    }
+    45.5% {
+        transform: translateY(-200px);
+    }
+    50.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.titleBar-3_fDwJ::before {
+    content: url(https://puu.sh/yzjuA/808909e8cd.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 28.50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTMe 60s infinite
+}
+@media all and (min-width: 0px) and (max-width: 1000px) 
+{
+.titleBar-3_fDwJ::before, .titleBar-3_fDwJ::after {
+    left: 17%;
+}
+}
+@keyframes MigTMe {
+    0% {
+        transform: translateY(-200px);
+    }
+    0.5% {
+        transform: translateY(-200px);
+    }
+    5.5% {
+        transform: translateY(0);
+    }
+    45.5% {
+        transform: translateY(0);
+    }
+    50.5% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
+    left: 125px;
+}
+
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
+    left: 275px;
+}
+* {
+    font-size: 100%;
+    font-family: var(--font)!important;
+}
+strong {
+    font-weight: 700;
+}
+button {
+    font-family: var(--font)!important;
+}
+input,
+textarea {
+    font-family: var(--font)!important;
+}
+
+
+/* logo discord inutile */
+
+.wordmark-2L03Wr svg {
+    display: none;
+}
+
+/* logo discord et logo thème personnel */
+
+.titleBar-3_fDwJ {
+    z-index: 99999999;
+    background: rgba(0,0,0,0.3);
+    background-image: url(https://puu.sh/yzilV/84df9fd22a.png);
+    margin-top: 0px;
+    height: 26px;
+}
+
+/* boutton exit/réduire/agrandir la fenêtre */
+
+.winButton-U7zAqI {
+    width: 45px;
+    height: 30px;
+    opacity: 1;
+}
+
+/* taille de la barre du haut */
+
+.typeWindows-15E0Ys {
+    height: 25px;
+}
+
+/* image dans le profil de quelqu'un */
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yySPx/00d32d6a2a.png") !important;   
+background-size:cover !important;
+  background-position:center center !important;}
