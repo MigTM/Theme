@@ -8,7 +8,10 @@
     --couleur-theme-0-2: rgba(253,198,115,0.2);
     --couleur-theme-0-8: rgba(253,198,115,0.8);
     --couleur-them-0-3: rgba(253,198,115,0.3);
+    --couleur-theme-0-2: rgba(253,198,115,0.2);
+    --couleur-theme-0-008: rgba(253,198,115,0.008);
     --couleur-blanc: white;
+    --couleur-rouge: rgb(240,0,6);
     --background-blur: 0px;
     --background-brightness: 100%;
     --color-deco: rgb(240,0,6);
@@ -218,11 +221,6 @@ textarea {
     margin-top: 0px;
     height: 26px;
 }
-@media screen and (max-width: 960px) {
-.titleBar-3_fDwJ {
-    background-image: url(https://puu.sh/yo2S2/d88c8bfa74.png) !important;
-}
-}
 
 /* boutton exit/réduire/agrandir la fenêtre */
 
@@ -237,3 +235,8 @@ textarea {
 .typeWindows-15E0Ys {
     height: 25px;
 }
+
+/* image dans le profil de quelqu'un */
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yyA2d/b9bc866088.jpg") !important;   
+background-size:cover !important;
+  background-position:center center !important;}
