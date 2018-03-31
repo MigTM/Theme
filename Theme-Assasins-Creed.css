@@ -241,3 +241,98 @@ textarea {
 .inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yyA2d/b9bc866088.jpg") !important;   
 background-size:cover !important;
   background-position:center center !important;}
+
+
+
+/* popout profil membre */
+
+
+
+.userPopout-11hFKo .mask-2vyqAW {
+    background-clip: padding-box;
+    position: relative;
+    background: 50% 50%/cover;
+    border-radius: 10px!important;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  width: 200px!important;
+    height: 200px!important;
+  border: none;
+  margin-bottom: 10px !important;
+}
+.userPopout-11hFKo .avatarHint-2ohlkz {
+  margin-top: -90px !important;
+}
+.userPopout-11hFKo .avatarStatus-3asdLF
+{
+  margin-right: -110px !important;
+margin-bottom: -110px !important;
+
+}
+
+.userPopout-11hFKo .activityUserPopout-1nmgaw { background-color: rgb(148,116,65) !important; }
+.userPopout-11hFKo .statusOnlineProfile-2tnPUH {
+  box-shadow: inset 0 0 0 2px rgba(58, 130, 98, 0.6) ;
+    width: 450%!important;
+    height: 5px!important;
+    margin-bottom: -118px !important;
+  bottom: -8%;
+  left:-30%;
+  border-radius: 0px!important;
+  border-color:rgb(0,99,132)!important;
+}
+.statusOnlineProfile-2tnPUH {
+  box-shadow: inset 0 0 0 2px rgba(58, 130, 98, 0.6) ;
+}
+
+
+.userPopout-11hFKo .statusIdleProfile-2QT8cN  {
+  box-shadow:inset 0 0 0 2px hsla(37, 45%, 33%, 0.6) ;
+      width: 450%!important;
+    height: 5px!important;
+    margin-bottom: -118px !important;
+  bottom: -8%;
+  left:-30%;
+  border-radius: 0px!important;
+  border-color:rgb(0,99,132)!important;
+}
+.statusIdleProfile-2QT8cN  {
+  box-shadow:inset 0 0 0 2px hsla(37, 45%, 33%, 0.6) ; 
+}
+
+.userPopout-11hFKo .statusDndProfile-3KCGdy {
+  box-shadow: inset 0 0 0 2px hsla(0, 43%, 35%, 0.6) ;
+      width: 450%!important;
+    height: 5px!important;
+    margin-bottom: -118px !important;
+  bottom: -8%;
+  left:-30%;
+  border-radius: 0px!important;
+  border-color:rgb(0,99,132)!important;
+}
+.statusDndProfile-3KCGdy {
+  box-shadow: inset 0 0 0 2px hsla(0, 43%, 35%, 0.6) ;
+}
+
+.headerPlaying-2Q7mBy, .headerTop-27AvhA { background-color: rgb(152,119,69) !important; }
+
+.bodyTitle-18hsd9 { color: white;
+text-align: center;
+background-color: rgb(152,119,69);
+border: 1px black solid;
+border-radius: 2px; }
+
+.note-3rIr6P textarea { text-align: center; }
+.roleName-DUQZ9m_ { text-align: center; }
+
+.theme-dark .quickMessage-OCo-Q0 { background-color: rgb(152,119,69); }
+
+
+
+
+
+
+
+.theme-dark .body-3ljq11 { background-color: rgb(178,139,81) !important; }
+
+.theme-dark .footer-2wFs91 { background-color: rgb(203,159,92) !important; }
