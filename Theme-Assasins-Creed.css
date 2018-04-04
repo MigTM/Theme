@@ -52,3 +52,137 @@ body::after{
 body::after,.callout-backdrop::after{
     content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))
 }
+
+/* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
+
+/* effet logo et écriture thème et speudo */
+
+.guilds-wrapper .guild-separator:after {
+    content: "Theme Assassin's creed";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -4px;
+    left: 123px;
+    top: 1222px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: advert 60s infinite
+}
+@keyframes advert {
+    0% {
+        transform: translateY(-200px);
+    }
+    0.5% {
+        transform: translateY(-200px);
+    }
+    5.5% {
+        transform: translateY(-200px);
+    }
+    45.5% {
+        transform: translateY(-200px);
+    }
+    50.5% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
+.titleBar-3_fDwJ::before {
+    content: url(https://puu.sh/yo29v/75f23d6bf3.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 44.46%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTMe 60s infinite
+}
+@keyframes MigTMe {
+    0% {
+        transform: translateY(0px);
+    }
+    0.5% {
+        transform: translateY(0px);
+    }
+    5.5% {
+        transform: translateY(0);
+    }
+    45.5% {
+        transform: translateY(0);
+    }
+    50.5% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
+    left: 125px;
+}
+
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
+    left: 275px;
+}
+* {
+    font-size: 100%;
+    font-family: var(--font)!important;
+}
+strong {
+    font-weight: 700;
+}
+button {
+    font-family: var(--font)!important;
+}
+input,
+textarea {
+    font-family: var(--font)!important;
+}
+
+/* logo discord inutile */
+
+.wordmark-2L03Wr svg {
+    display: none;
+}
+
+/* logo discord et logo thème personnel */
+
+.titleBar-3_fDwJ {
+    z-index: 99999999;
+    background: rgba(0,0,0,0.3);
+    background-image: url(https://puu.sh/yo2S1/32fab02388.png);
+    margin-top: 0px;
+    height: 26px;
+}
+
+/* boutton exit/réduire/agrandir la fenêtre */
+
+.winButton-U7zAqI {
+    width: 45px;
+    height: 30px;
+    opacity: 1;
+}
+
+/* taille de la barre du haut */
+
+.typeWindows-15E0Ys {
+    height: 25px;
+}
+
+/* image dans le profil de quelqu'un */
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yyA2d/b9bc866088.jpg") !important;   
+background-size:cover !important;
+  background-position:center center !important;}
