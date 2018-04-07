@@ -1,0 +1,175 @@
+:root {
+    --main-color: rgb(177,9,9);
+    --hover-color: rgb(177,9,9);
+    --couleur-theme: rgb(177,9,9);
+    --couleur-theme-0-35: rgba(177,9,9,0.35);
+    --couleur-theme-0-25: rgba(177,9,9,0.25);
+    --couleur-theme-0-75: rgba(177,9,9,0.75);
+    --couleur-theme-0-5: rgba(177,9,9,0.5);
+    --couleur-theme-0-2: rgba(177,9,9,0.2);
+    --couleur-theme-0-8: rgba(177,9,9,0.8);
+    --couleur-them-0-3: rgba(177,9,9,0.3);
+    --couleur-theme-0-2: rgba(177,9,9,0.2);
+    --couleur-theme-0-1: rgba(177,9,9,0.1);
+    --couleur-theme-0-008: rgba(177,9,9,0.008);
+    --couleur-foncer: rgb(220,0,0);
+    --couleur-foncer-1: rgb(196,2,2);
+    --couleur-foncer-2: rgb(171,11,11);
+    --couleur-foncer-3: rgb(162,14,14);
+    --couleur-blanc: white;
+    --couleur-blanc-0-75: rgba(255,255,255,0.5);
+    --couleur-gris-foncer: rgba(32,34,37,.40);
+    --couleur-gris-foncer-0-6: rgba(32,34,37,.60);
+    --couleur-gris-foncer-0-8: rgba(32,34,37,.80);
+    --couleur-rouge: rgb(240,0,6);
+    --couleur-rouge-0-5: rgba(240,0,6,0.5);
+    --couleur-rouge-0-75: rgba(240,0,6,0.75);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+    --color-deco: rgb(240,0,6);
+    
+}
+
+/* CONTENU IMAGE DE FOND ET TRANSPARANCE */
+
+/* Image de Fond */
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://puu.sh/zYdjN/72779eda1b.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+body::after{
+    z-index:-9999
+}
+body::after,.callout-backdrop::after{
+    content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))
+}
+
+
+/* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
+
+/* effet logo et écriture thème et speudo */
+
+.guilds-wrapper .guild-separator:after {
+    content: "Theme Princess_Pwnnz";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -4px;
+    left: 121px;
+    top: 1222px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: advert 60s infinite
+}
+@keyframes advert {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+
+.titleBar-3_fDwJ::before {
+    content: url(https://puu.sh/zYeu1/c6c20e8a13.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 28.50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTMe 60s infinite
+}
+@media all and (min-width: 0px) and (max-width: 1000px) 
+{
+.titleBar-3_fDwJ::before, .titleBar-3_fDwJ::after {
+    left: 17%;
+}
+}
+@keyframes MigTMe {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
+    left: 125px;
+}
+
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
+    left: 275px;
+}
+* {
+    font-size: 100%;
+    font-family: var(--font)!important;
+}
+strong {
+    font-weight: 700;
+}
+button {
+    font-family: var(--font)!important;
+}
+input,
+textarea {
+    font-family: var(--font)!important;
+}
+
+/* logo discord inutile */
+
+.wordmark-2L03Wr svg {
+    display: none;
+}
+
+/* logo discord et logo thème personnel */
+
+.titleBar-3_fDwJ {
+    z-index: 99999999;
+    background: rgba(0,0,0,0.3);
+    background-image: url(https://puu.sh/zYdZN/173a611b92.png);
+    margin-top: 0px;
+    height: 26px;
+}
+
+/* boutton exit/réduire/agrandir la fenêtre */
+
+.winButton-U7zAqI {
+    width: 45px;
+    height: 30px;
+    opacity: 1;
+}
+
+/* taille de la barre du haut */
+
+.typeWindows-15E0Ys {
+    height: 25px;
+}
+
+/* image dans le profil de quelqu'un */
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/zYc1t/09f531eb39.jpg") !important;   
+	background-size:cover !important;
+	background-position:center center !important;
+}
