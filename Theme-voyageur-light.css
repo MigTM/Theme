@@ -4,6 +4,7 @@
     --couleur-theme: rgb(124,143,147);
     --couleur-theme-0-35: rgba(124,143,147,0.35);
     --couleur-theme-0-25: rgba(124,143,147,0.25);
+    --couleur-theme-0-75: rgba(124,143,147,0.75);
     --couleur-theme-0-5: rgba(124,143,147,0.5);
     --couleur-theme-0-2: rgba(124,143,147,0.2);
     --couleur-theme-0-8: rgba(124,143,147,0.8);
@@ -57,98 +58,15 @@ body::after,
 }
 @keyframes advert {
     0% {
-        transform: translateY(0);
-    }
-    0.5% {
-        transform: translateY(0);
-    }
-    5.5% {
         transform: translateY(-200px);
     }
-    45.5% {
-        transform: translateY(-200px);
-    }
-    50.5% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-.guilds-wrapper .guild-separator:before {
-    content: "By MigTM";
-    z-index: 999999999999;
-    color: var(--couleur-theme);
-    text-transform: none;
-    background: transparent;
-    width: 100%;
-    top: -4px;
-    left: 150px;
-    top: 1222px;
-    position: fixed;
-    padding: 5px 15px;
-    transform: translateY(-200px);
-    font-size: 12px;
-    pointer-events: none;
-    animation: MigTM 60s infinite
 
-}
-@keyframes MigTM {
-    0% {
-        transform: translateY(0);
-    }
-    45.5% {
-        transform: translateY(0);
-    }
-    50.5% {
-        transform: translateY(-200px);
-    }
-    90.5% {
-        transform: translateY(-200px);
-    }
-    95.5% {
-        transform: translateY(0);
-    }
     100% {
-        transform: translateY(0);
-    }
-}
-.titleBar-3_fDwJ::after {
-    content: url(https://puu.sh/yziIG/fec378a8a3.png);
-    z-index: 999999999999;
-    color: var(--couleur-theme);
-    text-transform: none;
-    background: transparent;
-    top: -5px;
-    left: 28.50%;
-    position: absolute;
-    border-radius: 5px;
-    padding: 5px 15px;
-    transform: translateY(-200px); 
-    font-size: 12px;
-    pointer-events: none;
-    animation: adverte 60s infinite
-}
-@keyframes adverte {
-    0% {
-        transform: translateY(0);
-    }
-    0.5% {
-        transform: translateY(0);
-    }
-    5.5% {
         transform: translateY(-200px);
     }
-    45.5% {
-        transform: translateY(-200px);
-    }
-    50.5% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
+
+
 .titleBar-3_fDwJ::before {
     content: url(https://puu.sh/yzjuA/808909e8cd.png);
     z-index: 999999999999;
@@ -173,22 +91,11 @@ body::after,
 }
 @keyframes MigTMe {
     0% {
-        transform: translateY(-200px);
-    }
-    0.5% {
-        transform: translateY(-200px);
-    }
-    5.5% {
         transform: translateY(0);
     }
-    45.5% {
-        transform: translateY(0);
-    }
-    50.5% {
-        transform: translateY(-200px);
-    }
+
     100% {
-        transform: translateY(-200px);
+        transform: translateY(0);
     }
 }
 body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {

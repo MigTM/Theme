@@ -4,6 +4,7 @@
     --couleur-theme: rgb(253,198,115);
     --couleur-theme-0-35: rgba(253,198,115,0.35);
     --couleur-theme-0-25: rgba(253,198,115,0.25);
+    --couleur-theme-0-75: rgba(253,198,115,0.75);
     --couleur-theme-0-5: rgba(253,198,115,0.5);
     --couleur-theme-0-2: rgba(253,198,115,0.2);
     --couleur-theme-0-8: rgba(253,198,115,0.8);
@@ -11,14 +12,28 @@
     --couleur-theme-0-2: rgba(253,198,115,0.2);
     --couleur-theme-0-1: rgba(253,198,115,0.1);
     --couleur-theme-0-008: rgba(253,198,115,0.008);
+    --couleur-foncer: rgb(203,159,92);
+    --couleur-foncer-1: rgb(178,139,81);
+    --couleur-foncer-2: rgb(152,119,69);
+    --couleur-foncer-3: rgb(139,108,63);
     --couleur-blanc: white;
+    --couleur-blanc-0-75: rgba(255,255,255,0.5);
+    --couleur-gris-foncer: rgba(32,34,37,.40);
+    --couleur-gris-foncer-0-6: rgba(32,34,37,.60);
+    --couleur-gris-foncer-0-8: rgba(32,34,37,.80);
     --couleur-rouge: rgb(240,0,6);
+    --couleur-rouge-0-5: rgba(240,0,6,0.5);
+    --couleur-rouge-0-75: rgba(240,0,6,0.75);
     --background-blur: 0px;
     --background-brightness: 100%;
     --color-deco: rgb(240,0,6);
     
 }
 
+
+/* CONTENU IMAGE DE FOND ET TRANSPARANCE */
+
+/* Image de Fond */
 body::after,
 .callout-backdrop,
 .user-popout::before,
@@ -31,20 +46,25 @@ body::after,
 .radio-theme.dark label{
     background-image: url(https://puu.sh/xQ1fy/abd124f9bd.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
-
+body::after{
+    z-index:-9999
+}
+body::after,.callout-backdrop::after{
+    content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))
+}
 
 /* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
 
 /* effet logo et écriture thème et speudo */
 
 .guilds-wrapper .guild-separator:after {
-    content: "Theme Hunter of Destiny";
+    content: "Theme Assassin's creed";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
     top: -4px;
-    left: 118px;
+    left: 123px;
     top: 1222px;
     position: fixed;
     border-radius: 5px;
@@ -56,10 +76,10 @@ body::after,
 }
 @keyframes advert {
     0% {
-        transform: translateY(0);
+        transform: translateY(-200px);
     }
     0.5% {
-        transform: translateY(0);
+        transform: translateY(-200px);
     }
     5.5% {
         transform: translateY(-200px);
@@ -68,84 +88,10 @@ body::after,
         transform: translateY(-200px);
     }
     50.5% {
-        transform: translateY(0);
+        transform: translateY(-200px);
     }
     100% {
-        transform: translateY(0);
-    }
-}
-.guilds-wrapper .guild-separator:before {
-    content: "By MigTM";
-    z-index: 999999999999;
-    color: var(--couleur-theme);
-    text-transform: none;
-    background: transparent;
-    width: 100%;
-    top: -4px;
-    left: 150px;
-    top: 1222px;
-    position: fixed;
-    padding: 5px 15px;
-    transform: translateY(-200px);
-    font-size: 12px;
-    pointer-events: none;
-    animation: MigTM 60s infinite
-
-}
-@keyframes MigTM {
-    0% {
-        transform: translateY(0);
-    }
-    45.5% {
-        transform: translateY(0);
-    }
-    50.5% {
         transform: translateY(-200px);
-    }
-    90.5% {
-        transform: translateY(-200px);
-    }
-    95.5% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-.titleBar-3_fDwJ::after {
-    content: url(https://puu.sh/yo29x/17c993a9cf.png);
-    z-index: 999999999999;
-    color: var(--couleur-theme);
-    text-transform: none;
-    background: transparent;
-    top: -5px;
-    left: 41.38%;
-    position: absolute;
-    border-radius: 5px;
-    padding: 5px 15px;
-    transform: translateY(-200px); 
-    font-size: 12px;
-    pointer-events: none;
-    animation: adverte 60s infinite
-}
-@keyframes adverte {
-    0% {
-        transform: translateY(0);
-    }
-    0.5% {
-        transform: translateY(0);
-    }
-    5.5% {
-        transform: translateY(-200px);
-    }
-    45.5% {
-        transform: translateY(-200px);
-    }
-    50.5% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
     }
 }
 .titleBar-3_fDwJ::before {
@@ -166,10 +112,10 @@ body::after,
 }
 @keyframes MigTMe {
     0% {
-        transform: translateY(-200px);
+        transform: translateY(0px);
     }
     0.5% {
-        transform: translateY(-200px);
+        transform: translateY(0px);
     }
     5.5% {
         transform: translateY(0);
@@ -178,10 +124,10 @@ body::after,
         transform: translateY(0);
     }
     50.5% {
-        transform: translateY(-200px);
+        transform: translateY(0px);
     }
     100% {
-        transform: translateY(-200px);
+        transform: translateY(0px);
     }
 }
 body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
@@ -205,7 +151,6 @@ input,
 textarea {
     font-family: var(--font)!important;
 }
-
 
 /* logo discord inutile */
 
