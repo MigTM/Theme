@@ -127,6 +127,17 @@ body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
 button {
     font-family: var(--font)!important;
 }
+* {
+    font-size: 100%;
+    font-family: var(--font)!important;
+}
+strong {
+    font-weight: 700;
+}
+input,
+textarea {
+    font-family: var(--font)!important;
+}
 
 /* logo discord inutile */
 
