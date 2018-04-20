@@ -163,3 +163,7 @@ button {
 	background-size:cover !important;
 	background-position:center center !important;
 }
+
+/* Anti-Bug */
+
+body{-webkit-backface-visibility:hidden;backface-visibility:hidden} 
