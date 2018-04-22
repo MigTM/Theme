@@ -123,20 +123,10 @@ body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
 body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
     left: 275px;
 }
-* {
-    font-size: 100%;
-    font-family: var(--font)!important;
-}
-strong {
-    font-weight: 700;
-}
 button {
     font-family: var(--font)!important;
 }
-input,
-textarea {
-    font-family: var(--font)!important;
-}
+
 
 /* logo discord inutile */
 
@@ -173,3 +163,7 @@ textarea {
 	background-size:cover !important;
 	background-position:center center !important;
 }
+
+/* Anti-Bug */
+
+body{-webkit-backface-visibility:hidden;backface-visibility:hidden} 
