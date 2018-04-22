@@ -58,7 +58,7 @@ body::after,.callout-backdrop::after{
 /* effet logo et écriture thème et speudo */
 
 .guilds-wrapper .guild-separator:after {
-    content: "Theme Princess_Pwnnz";
+    content: "Theme Princesse_Pwnz";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
