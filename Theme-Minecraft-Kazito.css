@@ -57,7 +57,7 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.titleBar-3_fDwJ::before {
+.titleBar-AC4pGV::before {
     content: url(https://puu.sh/A8m7C/244eda44b3.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
@@ -75,7 +75,7 @@ body::after,.callout-backdrop::after{
 }
 @media all and (min-width: 0px) and (max-width: 1000px) 
 {
-.titleBar-3_fDwJ::before, .titleBar-3_fDwJ::after {
+.titleBar-AC4pGV::before, .titleBar-AC4pGV::after {
     left: 17%;
 }
 }
@@ -102,13 +102,13 @@ button {
 
 /* logo discord inutile */
 
-.wordmark-2L03Wr svg {
+.wordmark-2iDDfm svg {
     display: none;
 }
 
 /* logo discord et logo thème personnel */
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
     background-image: url(https://puu.sh/A8lMW/c992b826b6.png);
@@ -118,7 +118,7 @@ button {
 
 /* boutton exit/réduire/agrandir la fenêtre */
 
-.winButton-U7zAqI {
+.winButton-iRh8-Z {
     width: 45px;
     height: 30px;
     opacity: 1;
@@ -126,7 +126,7 @@ button {
 
 /* taille de la barre du haut */
 
-.typeWindows-15E0Ys {
+.typeWindows-1za-n7 {
     height: 25px;
 }
 
