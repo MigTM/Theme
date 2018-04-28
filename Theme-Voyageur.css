@@ -86,7 +86,7 @@ body::after,.callout-backdrop::after{
 }
 
 
-.titleBar-3_fDwJ::before {
+.titleBar-AC4pGV::before  {
     content: url(https://puu.sh/yzjuA/808909e8cd.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
@@ -104,7 +104,7 @@ body::after,.callout-backdrop::after{
 }
 @media all and (min-width: 0px) and (max-width: 1000px) 
 {
-.titleBar-3_fDwJ::before, .titleBar-3_fDwJ::after {
+.titleBar-AC4pGV::before, .titleBar-AC4pGV::after {
     left: 17%;
 }
 }
@@ -141,13 +141,13 @@ textarea {
 
 /* logo discord inutile */
 
-.wordmark-2L03Wr svg {
+.wordmark-2iDDfm svg {
     display: none;
 }
 
 /* logo discord et logo thème personnel */
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
     background-image: url(https://puu.sh/yzilV/84df9fd22a.png);
@@ -157,7 +157,7 @@ textarea {
 
 /* boutton exit/réduire/agrandir la fenêtre */
 
-.winButton-U7zAqI {
+.winButton-iRh8-Z  {
     width: 45px;
     height: 30px;
     opacity: 1;
@@ -165,7 +165,7 @@ textarea {
 
 /* taille de la barre du haut */
 
-.typeWindows-15E0Ys {
+.typeWindows-1za-n7 {
     height: 25px;
 }
 
