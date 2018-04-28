@@ -94,7 +94,7 @@ body::after,.callout-backdrop::after{
         transform: translateY(-200px);
     }
 }
-.titleBar-3_fDwJ::before {
+.titleBar-AC4pGV::before {
     content: url(https://puu.sh/yo29v/75f23d6bf3.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
@@ -154,13 +154,13 @@ textarea {
 
 /* logo discord inutile */
 
-.wordmark-2L03Wr svg {
+.wordmark-2iDDfm svg {
     display: none;
 }
 
 /* logo discord et logo thème personnel */
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
     background-image: url(https://puu.sh/yo2S1/32fab02388.png);
@@ -170,7 +170,7 @@ textarea {
 
 /* boutton exit/réduire/agrandir la fenêtre */
 
-.winButton-U7zAqI {
+.winButton-iRh8-Z {
     width: 45px;
     height: 30px;
     opacity: 1;
@@ -178,7 +178,7 @@ textarea {
 
 /* taille de la barre du haut */
 
-.typeWindows-15E0Ys {
+.typeWindows-1za-n7 {
     height: 25px;
 }
 
