@@ -189,3 +189,7 @@ textarea {
 .inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yyA2d/b9bc866088.jpg") !important;   
 background-size:cover !important;
   background-position:center center !important;}
+
+/* Anti-Bug */
+
+body{-webkit-backface-visibility:hidden;backface-visibility:hidden} 
