@@ -44,7 +44,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://puu.sh/yxTNV/472cf3d59e.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://puu.sh/CjCzT/7da8e4a1e3.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 body::after{
     z-index:-9999
@@ -87,7 +87,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before  {
-    content: url(https://puu.sh/yzjuA/808909e8cd.png);
+    content: url(https://puu.sh/CjCz8/e40c873507.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -150,7 +150,7 @@ textarea {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/yzilV/84df9fd22a.png);
+    background-image: url(https://puu.sh/CjCzj/c425d50bcc.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -170,6 +170,6 @@ textarea {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/yySPx/00d32d6a2a.png") !important;   
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/CjCzN/da40987ae6.png") !important;   
 background-size:cover !important;
   background-position:center center !important;}
