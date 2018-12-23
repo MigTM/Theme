@@ -186,3 +186,13 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
     background-image: url("https://puu.sh/ClWsE/823c618146.png");
 }
+
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    content: url("https://puu.sh/ClWvh/a3137651ae.png");
+}
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"]  {
+    content: url("https://puu.sh/CmfUV/d9891505d6.png") ;
+}
+img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
+    content: url("https://puu.sh/ClWu7/5bc51c6556.png");
+}
