@@ -1,22 +1,24 @@
+//META{"name":"Theme Harley quinn","description":"Theme Harley Quinn By MigTM","author":"MigTM","version":"1"}*//{}
+
 :root {
-    --main-color: rgb(33,142,59);
-    --hover-color: rgb(33,142,59);
-    --couleur-theme: rgb(33,142,59);
-    --couleur-theme-fondu: rgb(4,95,26);
-    --couleur-theme-0-35: rgba(33,142,59,0.35);
-    --couleur-theme-0-25: rgba(33,142,59,0.25);
-    --couleur-theme-0-75: rgba(33,142,59,0.75);
-    --couleur-theme-0-5: rgba(33,142,59,0.5);
-    --couleur-theme-0-2: rgba(33,142,59,0.2);
-    --couleur-theme-0-8: rgba(33,142,59,0.8);
-    --couleur-them-0-3: rgba(33,142,59,0.3);
-    --couleur-theme-0-2: rgba(33,142,59,0.2);
-    --couleur-theme-0-1: rgba(33,142,59,0.1);
-    --couleur-theme-0-008: rgba(33,142,59,0.008);
-    --couleur-foncer: rgb(40,160,65);
-    --couleur-foncer-1: rgb(34,150,60);
-    --couleur-foncer-2: rgb(28,138,55);
-    --couleur-foncer-3: rgb(23,129,48);
+    --main-color: rgb(83,155,167);
+    --hover-color: rgb(83,155,167);
+    --couleur-theme: rgb(83,155,167);
+    --couleur-theme-fondu: rgb(50,120,130)
+    --couleur-theme-0-35: rgba(83,155,167,0.35);
+    --couleur-theme-0-25: rgba(83,155,167,0.25);
+    --couleur-theme-0-75: rgba(83,155,167,0.75);
+    --couleur-theme-0-5: rgba(83,155,167,0.5);
+    --couleur-theme-0-2: rgba(83,155,167,0.2);
+    --couleur-theme-0-8: rgba(83,155,167,0.8);
+    --couleur-them-0-3: rgba(83,155,167,0.3);
+    --couleur-theme-0-2: rgba(83,155,167,0.2);
+    --couleur-theme-0-1: rgba(83,155,167,0.1);
+    --couleur-theme-0-008: rgba(83,155,167,0.008);
+    --couleur-foncer: rgb(100,170,180);
+    --couleur-foncer-1: rgb(88,160,172);
+    --couleur-foncer-2: rgb(75,145,155);
+    --couleur-foncer-3: rgb(55,135,140);
     --couleur-blanc: white;
     --couleur-blanc-0-75: rgba(255,255,255,0.75);
     --couleur-blanc-0-5: rgba(255,255,255,0.5);
@@ -50,7 +52,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://puu.sh/ClTDy/be199eba14.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://cdn.discordapp.com/attachments/598443787223695410/599139949333315585/harley-quinn-amazing-art-hd.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 body::after{
     z-index:-9999
@@ -65,7 +67,7 @@ body::after,.callout-backdrop::after{
 /* effet logo et écriture thème et speudo */
 
 .guilds-wrapper .guild-separator:after {
-    content: "Theme Princesse_Pwnz";
+    content: "Theme Harley Quinn";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -196,3 +198,5 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
     content: url("https://puu.sh/ClWu7/5bc51c6556.png");
 }
+@import url("https://migtm.github.io/Contenu-Theme/Transparence-nfsu2.css");
+@import url("https://migtm.github.io/Contenu-Theme/Contenu-Theme-Light.css");
