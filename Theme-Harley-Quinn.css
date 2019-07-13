@@ -93,7 +93,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before {
-/*    content: url(https://puu.sh/ClVLD/e2e6ecb02b.png);*/
+    content: url(https://puu.sh/DSkVn/a2094e4ca8.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -146,7 +146,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-/*    background-image: url(https://puu.sh/ClVRh/7002885d2d.png);*/
+    background-image: url(https://puu.sh/DSl8j/0e3491bf32.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -178,21 +178,21 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 /* envoie Fichier */
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
-    background-image: url("https://puu.sh/ClWu7/5bc51c6556.png");
+    background-image: url("https://puu.sh/DSkKS/94ab9b10dc.png");
 }
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
-    background-image: url("https://puu.sh/ClWvh/a3137651ae.png");
+    background-image: url("https://puu.sh/DSkH3/5a82fd4140.png");
 }
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
-    background-image: url("https://puu.sh/Du8WU/f3f2bf4645.png");
+    background-image: url("https://puu.sh/DSkKR/af5a42cf81.png");
 }
 
 img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
-    content: url("https://puu.sh/ClWvh/a3137651ae.png");
+    content: url("https://puu.sh/DSkH3/5a82fd4140.png");
 }
 img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
-    content: url("https://puu.sh/CmfUV/d9891505d6.png") ;
+    content: url("https://puu.sh/DSkKZ/4029e5ae37.png") ;
 }
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-    content: url("https://puu.sh/ClWu7/5bc51c6556.png");
+    content: url("https://puu.sh/DSkKS/94ab9b10dc.png");
 }
