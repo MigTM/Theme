@@ -4,7 +4,7 @@
     --main-color: rgb(83,155,167);
     --hover-color: rgb(83,155,167);
     --couleur-theme: rgb(83,155,167);
-    --couleur-theme-fondu: rgb(50,120,130)
+    --couleur-theme-fondu: rgb(50,120,130);
     --couleur-theme-0-35: rgba(83,155,167,0.35);
     --couleur-theme-0-25: rgba(83,155,167,0.25);
     --couleur-theme-0-75: rgba(83,155,167,0.75);
@@ -198,5 +198,3 @@ img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
     content: url("https://puu.sh/ClWu7/5bc51c6556.png");
 }
-@import url("https://migtm.github.io/Contenu-Theme/Transparence-nfsu2.css");
-@import url("https://migtm.github.io/Contenu-Theme/Contenu-Theme-Light.css");
