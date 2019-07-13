@@ -92,8 +92,8 @@ body::after,.callout-backdrop::after{
 }
 
 
-/*.titleBar-AC4pGV::before {
-    content: url(https://puu.sh/ClVLD/e2e6ecb02b.png);
+.titleBar-AC4pGV::before {
+/*    content: url(https://puu.sh/ClVLD/e2e6ecb02b.png);*/
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -107,7 +107,7 @@ body::after,.callout-backdrop::after{
     font-size: 12px;
     pointer-events: none;
     animation: MigTMe 60s infinite
-}*/
+}
 @media all and (min-width: 0px) and (max-width: 1000px)
 {
 .titleBar-AC4pGV::before, .titleBar-AC4pGV::after {
@@ -143,13 +143,13 @@ button {
 
 /* logo discord et logo thème personnel */
 
-/*.titleBar-AC4pGV {
+.titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/ClVRh/7002885d2d.png);
+/*    background-image: url(https://puu.sh/ClVRh/7002885d2d.png);*/
     margin-top: 0px;
     height: 26px;
-}*/
+}
 
 /* boutton exit/réduire/agrandir la fenêtre */
 
