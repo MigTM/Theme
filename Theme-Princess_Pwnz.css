@@ -183,7 +183,9 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
     background-image: url("https://puu.sh/CjLIp/bbb14ae2d4.png");
 }
-
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/Duamj/51057fe970.png");
+}
 img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
     content: url("https://puu.sh/CjLIr/afff8b0759.png");
 }
