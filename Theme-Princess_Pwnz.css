@@ -90,7 +90,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/zYeu1/c6c20e8a13.png);
+    content: url(https://puu.sh/DSNlM/3fc7d9f58e.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -143,7 +143,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/zYdZN/173a611b92.png);
+    background-image: url(https://puu.sh/DSNmw/700c4b80c4.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -175,25 +175,25 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 /* envoie Fichier */
 
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
-    background-image: url("https://puu.sh/CjLbj/cc807b5d3c.png");
+    background-image: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
 }
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
-    background-image: url("https://puu.sh/CjLIr/afff8b0759.png");
+    background-image: url("https://puu.sh/Duamg/d38b7d4ee7.png");
 }
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
-    background-image: url("https://puu.sh/CjLIp/bbb14ae2d4.png");
+    background-image: url("https://puu.sh/Duamj/51057fe970.png");
 }
 img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
     content: url("https://puu.sh/Duamj/51057fe970.png");
 }
 img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
-    content: url("https://puu.sh/CjLIr/afff8b0759.png");
+    content: url("https://puu.sh/Duamg/d38b7d4ee7.png");
 }
 img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"]  {
-    content: url("https://puu.sh/CmfNS/51a8779594.png") ;
+    content: url("https://puu.sh/Duami/6234a6d237.png") ;
 }
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-    content: url("https://puu.sh/CjLbj/cc807b5d3c.png");
+    content: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
 }
 
 /* img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"] {
