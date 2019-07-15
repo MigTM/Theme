@@ -49,11 +49,11 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.light label,
-.radio-theme.dark label{
+.radio-theme.dark label, .rightSplit-2US0xy{
     background-image: url(https://puu.sh/DSk8Q/fb575f3cd9.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
+/* image reco */
 .rightSplit-2US0xy {
-    background-image: url(https://puu.sh/DSk8Q/fb575f3cd9.jpg) !important; 
        background-size: cover;
        background-attachment: fixed;
 }
