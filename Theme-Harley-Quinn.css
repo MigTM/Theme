@@ -202,8 +202,11 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
     background-image: url("https://puu.sh/DSkH3/5a82fd4140.png");
 }
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9,  .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
     background-image: url("https://puu.sh/DSkKR/af5a42cf81.png");
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/DSkKZ/4029e5ae37.png");
 }
 
 img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
