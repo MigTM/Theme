@@ -91,6 +91,26 @@ body::after,.callout-backdrop::after{
 }
 
 
+.side-8zPYf6::after {
+	content: "Theme Harley Quinn by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme Harley Quinn by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
+}
+
 .titleBar-AC4pGV::before {
     content: url(https://puu.sh/DSkVn/a2094e4ca8.png);
     z-index: 999999999999;
