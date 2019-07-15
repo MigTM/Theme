@@ -64,22 +64,30 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.guilds-wrapper .guild-separator:after {
-    content: "Theme Princesse_Pwnz";
+.wrapper-1Rf91z::after {
+    content: "Theme NFSU2 by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    top: -4px;
-    left: 121px;
-    top: 1222px;
+    left: 115px;
+    bottom: -205px;
     position: fixed;
     border-radius: 5px;
     padding: 5px 15px;
     transform: translateY(-200px);
     font-size: 12px;
     pointer-events: none;
-    animation: advert 60s infinite
+    /* animation: advert 60s infinite */
+}
+@keyframes advert {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
 }
 @keyframes advert {
     0% {
