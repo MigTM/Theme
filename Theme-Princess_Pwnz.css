@@ -47,7 +47,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://puu.sh/zYdjN/72779eda1b.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://puu.sh/DU0Vz/0f55d11b5e.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 body::after{
     z-index:-9999
@@ -162,7 +162,7 @@ button {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/zYdjN/72779eda1b.jpg") !important;   
+.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/DU0Vy/8954c72c7c.jpg") !important;   
 	background-size:cover !important;
 	background-position:center center !important;
 }
