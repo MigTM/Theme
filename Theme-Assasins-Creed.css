@@ -89,7 +89,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/CiJD3/345b9f6482.png);
+    content: url(https://puu.sh/DU10T/8ddbc9bcba.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -142,7 +142,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/yo2S1/32fab02388.png);
+    background-image: url(https://puu.sh/DU10R/7d22d6b27d.png);
     margin-top: 0px;
     height: 26px;
 }
