@@ -86,7 +86,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before  {
-    content: url(https://puu.sh/CjCz8/e40c873507.png);
+    content: url(https://puu.sh/DU10S/fe54174e28.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -149,7 +149,7 @@ textarea {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/CjCzj/c425d50bcc.png);
+    background-image: url(https://puu.sh/DU10Q/b01b43ad3d.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -177,3 +177,41 @@ textarea {
 /* Anti-Bug */
 
 body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+
+
+/* envoie fichier */
+
+/* Fichier text */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
+    background-image: url("https://puu.sh/DU10M/8853cbccee.png");
+}
+/* Fichier code "/>" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
+    background-image: url("https://puu.sh/DU10O/dcf29c13e3.png");
+}
+/* Fichier code "{}" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9, .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
+    background-image: url("https://puu.sh/DU10N/f2c34c265a.png");
+}
+/* Fichier vide */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/DU10P/54002965fd.png");
+}
+
+/* Fichier text */
+img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
+    content: url("https://puu.sh/DU10M/8853cbccee.png");
+}
+/* Fichier code "/>" */
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    content: url("https://puu.sh/DU10O/dcf29c13e3.png");
+}
+/* Fichier code "{}" */
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/DU10N/f2c34c265a.png");
+}
+/* Fichier vide */
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
+    content: url("https://puu.sh/DU10P/54002965fd.png") ;
+}
+
