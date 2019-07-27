@@ -1,10 +1,8 @@
-//META{"name":"Theme Harley quinn","description":"Theme Harley Quinn By MigTM","author":"MigTM","version":"1"}*//{}
-
 :root {
     --main-color: rgb(83,155,167);
     --hover-color: rgb(83,155,167);
     --couleur-theme: rgb(83,155,167);
-    --couleur-theme-fondu: rgb(50,120,130)
+    --couleur-theme-fondu: rgb(50,120,130);
     --couleur-theme-0-35: rgba(83,155,167,0.35);
     --couleur-theme-0-25: rgba(83,155,167,0.25);
     --couleur-theme-0-75: rgba(83,155,167,0.75);
@@ -51,8 +49,13 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.light label,
-.radio-theme.dark label{
-    background-image: url(https://cdn.discordapp.com/attachments/598443787223695410/599139949333315585/harley-quinn-amazing-art-hd.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+.radio-theme.dark label, .rightSplit-2US0xy{
+    background-image: url(https://puu.sh/DSk8Q/fb575f3cd9.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/* image reco */
+.rightSplit-2US0xy {
+       background-size: cover;
+       background-attachment: fixed;
 }
 body::after{
     z-index:-9999
@@ -66,22 +69,21 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.guilds-wrapper .guild-separator:after {
-    content: "Theme Harley Quinn";
+.wrapper-1Rf91z::after {
+    content: "Theme Harley Quinn by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    top: -4px;
-    left: 121px;
-    top: 1222px;
+    left: 101px;
+    bottom: -205px;
     position: fixed;
     border-radius: 5px;
     padding: 5px 15px;
     transform: translateY(-200px);
     font-size: 12px;
     pointer-events: none;
-    animation: advert 60s infinite
+/*    animation: advert 60s infinite*/
 }
 @keyframes advert {
     0% {
@@ -94,8 +96,28 @@ body::after,.callout-backdrop::after{
 }
 
 
+.side-8zPYf6::after {
+	content: "Theme Harley Quinn by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme Harley Quinn by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
+}
+
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/ClVLD/e2e6ecb02b.png);
+    content: url(https://puu.sh/DSkVn/a2094e4ca8.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -148,7 +170,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/ClVRh/7002885d2d.png);
+    background-image: url(https://puu.sh/DSl8j/0e3491bf32.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -168,7 +190,7 @@ button {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1JeGVc .root-SR8cQa { background-image: url("https://puu.sh/Du8Z3/f63ae5579f.jpg") !important;
+.inner-1ilYF7 .root-SR8cQa { background-image: url("https://puu.sh/DSk8Q/fb575f3cd9.jpg") !important;
     background-size:cover !important;
     background-position:center center !important;
 }
@@ -179,24 +201,37 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 /* envoie Fichier */
 
+/* Fichier text */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
-    background-image: url("https://puu.sh/ClWu7/5bc51c6556.png");
+    background-image: url("https://puu.sh/DSkKS/94ab9b10dc.png");
 }
+/* Fichier code "/>" */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
-    background-image: url("https://puu.sh/ClWvh/a3137651ae.png");
+    background-image: url("https://puu.sh/DSkH3/5a82fd4140.png");
 }
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
-    background-image: url("https://puu.sh/Du8WU/f3f2bf4645.png");
+/* Fichier code "{}" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9,  .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
+    background-image: url("https://puu.sh/DSkKR/af5a42cf81.png");
+}
+/* Fichier vide */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/DSkKZ/4029e5ae37.png");
 }
 
-img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
-    content: url("https://puu.sh/ClWvh/a3137651ae.png");
-}
-img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
-    content: url("https://puu.sh/CmfUV/d9891505d6.png") ;
-}
+/* Fichier text */
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-    content: url("https://puu.sh/ClWu7/5bc51c6556.png");
+    content: url("https://puu.sh/DSkKS/94ab9b10dc.png");
 }
-@import url("https://migtm.github.io/Contenu-Theme/Transparence-nfsu2.css");
-@import url("https://migtm.github.io/Contenu-Theme/Contenu-Theme-Light.css");
+/* Fichier code "/>" */
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    content: url("https://puu.sh/DSkH3/5a82fd4140.png");
+}
+/* Fichier code "{}" */
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/DSkKR/af5a42cf81.png");
+}
+/* Fichier vide */
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
+    content: url("https://puu.sh/DSkKZ/4029e5ae37.png") ;
+}
+

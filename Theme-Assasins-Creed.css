@@ -61,22 +61,21 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.guilds-wrapper .guild-separator:after {
-    content: "Theme Assassin's creed";
+.wrapper-1Rf91z::after {
+    content: "Theme Assasins Creed by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    top: -4px;
-    left: 121px;
-    top: 1222px;
+    left: 92px;
+    bottom: -205px;
     position: fixed;
     border-radius: 5px;
     padding: 5px 15px;
     transform: translateY(-200px);
     font-size: 12px;
     pointer-events: none;
-    animation: advert 60s infinite
+/*    animation: advert 60s infinite*/
 }
 @keyframes advert {
     0% {
@@ -90,7 +89,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/CiJD3/345b9f6482.png);
+    content: url(https://puu.sh/DU10T/8ddbc9bcba.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -143,7 +142,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/yo2S1/32fab02388.png);
+    background-image: url(https://puu.sh/DU10R/7d22d6b27d.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -163,7 +162,7 @@ button {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1JeGVc .root-SR8cQa { background-image: url("https://puu.sh/Du9gr/3ac2d0a3b8.jpg") !important;
+.inner-1ilYF7 .root-SR8cQa { background-image: url("https://puu.sh/Du9gr/3ac2d0a3b8.jpg") !important;
     background-size:cover !important;
     background-position:center center !important;
 }

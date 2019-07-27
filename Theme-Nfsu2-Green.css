@@ -49,8 +49,13 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.light label,
-.radio-theme.dark label{
+.radio-theme.dark label, .rightSplit-2US0xy{
     background-image: url(https://puu.sh/ClTDy/be199eba14.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/* image reco */
+.rightSplit-2US0xy {
+       background-size: cover;
+       background-attachment: fixed;
 }
 body::after{
     z-index:-9999
@@ -64,22 +69,21 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.guilds-wrapper .guild-separator:after {
-    content: "Theme Princesse_Pwnz";
+.wrapper-1Rf91z::after {
+    content: "Theme NFSU2 by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    top: -4px;
-    left: 121px;
-    top: 1222px;
+    left: 115px;
+    bottom: -205px;
     position: fixed;
     border-radius: 5px;
     padding: 5px 15px;
     transform: translateY(-200px);
     font-size: 12px;
     pointer-events: none;
-    animation: advert 60s infinite
+    /* animation: advert 60s infinite */
 }
 @keyframes advert {
     0% {
@@ -89,6 +93,36 @@ body::after,.callout-backdrop::after{
     100% {
         transform: translateY(-200px);
     }
+}
+@keyframes advert {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+
+.side-8zPYf6::after {
+	content: "Theme NFSU2 by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme NFSU2 by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
 }
 
 
@@ -166,7 +200,7 @@ button {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1JeGVc .root-SR8cQa { background-image: url("https://puu.sh/Du8Z3/f63ae5579f.jpg") !important;
+.inner-1ilYF7 .root-SR8cQa { background-image: url("https://puu.sh/Du8Z3/f63ae5579f.jpg") !important;
     background-size:cover !important;
     background-position:center center !important;
 }
@@ -177,22 +211,37 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 /* envoie Fichier */
 
+
+/* Fichier text */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
     background-image: url("https://puu.sh/ClWu7/5bc51c6556.png");
 }
+/* Fichier code "/>" */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
     background-image: url("https://puu.sh/ClWvh/a3137651ae.png");
 }
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
+/* Fichier code "{}" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9, .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.code-aoB-kL {
     background-image: url("https://puu.sh/Du8WU/f3f2bf4645.png");
 }
+/* Fichier vide */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/CmfUV/d9891505d6.png");
+}
 
+/* Fichier text */
+img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
+    content: url("https://puu.sh/ClWu7/5bc51c6556.png");
+}
+/* Fichier code "/>" */
 img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
     content: url("https://puu.sh/ClWvh/a3137651ae.png");
 }
+/* Fichier code "{}" */
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/Du8WU/f3f2bf4645.png");
+}
+/* Fichier vide */
 img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
     content: url("https://puu.sh/CmfUV/d9891505d6.png") ;
-}
-img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-    content: url("https://puu.sh/ClWu7/5bc51c6556.png");
 }

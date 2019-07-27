@@ -47,7 +47,7 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://puu.sh/zYdjN/72779eda1b.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    background-image: url(https://puu.sh/DU0Vz/0f55d11b5e.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
 }
 body::after{
     z-index:-9999
@@ -61,22 +61,21 @@ body::after,.callout-backdrop::after{
 
 /* effet logo et écriture thème et speudo */
 
-.guilds-wrapper .guild-separator:after {
-    content: "Theme Princesse_Pwnz";
+.wrapper-1Rf91z::after {
+    content: "Theme Princesse Pwnz by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    top: -4px;
-    left: 121px;
-    top: 1222px;
+    left: 95px;
+    bottom: -205px;
     position: fixed;
     border-radius: 5px;
     padding: 5px 15px;
-    transform: translateY(-200px); 
+    transform: translateY(-200px);
     font-size: 12px;
     pointer-events: none;
-    animation: advert 60s infinite
+/*    animation: advert 60s infinite*/
 }
 @keyframes advert {
     0% {
@@ -88,9 +87,29 @@ body::after,.callout-backdrop::after{
     }
 }
 
+.side-8zPYf6::after {
+	content: "Theme Princesse Pwnz by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme Princesse Pwnz by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
+}
+
 
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/zYeu1/c6c20e8a13.png);
+    content: url(https://puu.sh/DSNlM/3fc7d9f58e.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -143,7 +162,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/zYdZN/173a611b92.png);
+    background-image: url(https://puu.sh/DSNmw/700c4b80c4.png);
     margin-top: 0px;
     height: 26px;
 }
@@ -163,7 +182,7 @@ button {
 }
 
 /* image dans le profil de quelqu'un */
-.inner-1_1f7b .root-2sNHUF { background-image: url("https://puu.sh/zYdjN/72779eda1b.jpg") !important;   
+.inner-1ilYF7 .root-SR8cQa { background-image: url("https://puu.sh/DU0Vy/8954c72c7c.jpg") !important;   
 	background-size:cover !important;
 	background-position:center center !important;
 }
@@ -174,25 +193,41 @@ body{-webkit-backface-visibility:hidden;backface-visibility:hidden}
 
 /* envoie Fichier */
 
+
+/* Fichier text */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
-    background-image: url("https://puu.sh/CjLbj/cc807b5d3c.png");
+    background-image: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
 }
+/* Fichier code "/>" */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
-    background-image: url("https://puu.sh/CjLIr/afff8b0759.png");
+    background-image: url("https://puu.sh/Duamg/d38b7d4ee7.png");
 }
+/* Fichier code "{}" */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
-    background-image: url("https://puu.sh/CjLIp/bbb14ae2d4.png");
+    background-image: url("https://puu.sh/Duamj/51057fe970.png");
+}
+/* Fichier vide */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/Duami/6234a6d237.png");
 }
 
-img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
-    content: url("https://puu.sh/CjLIr/afff8b0759.png");
-}
-img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"]  {
-    content: url("https://puu.sh/CmfNS/51a8779594.png") ;
-}
+/* Fichier text */
 img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
-    content: url("https://puu.sh/CjLbj/cc807b5d3c.png");
+    content: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
 }
+/* Fichier code "/>" */
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    content: url("https://puu.sh/Duamg/d38b7d4ee7.png");
+}
+/* Fichier code "{}" */
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/Duamj/51057fe970.png");
+}
+/* Fichier vide */
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"]  {
+    content: url("https://puu.sh/Duami/6234a6d237.png") ;
+}
+
 
 /* img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"] {
     content: url("https://puu.sh/Cmf0s/9a656a850d.png");
