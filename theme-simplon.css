@@ -1,0 +1,230 @@
+:root {
+    --main-color: rgb(177,9,9);
+    --hover-color: rgb(177,9,9);
+    --couleur-theme: rgb(177,9,9);
+    --couleur-theme-fondu: rgb(130,8,8);
+    --couleur-theme-0-35: rgba(177,9,9,0.35);
+    --couleur-theme-0-25: rgba(177,9,9,0.25);
+    --couleur-theme-0-75: rgba(177,9,9,0.75);
+    --couleur-theme-0-5: rgba(177,9,9,0.5);
+    --couleur-theme-0-2: rgba(177,9,9,0.2);
+    --couleur-theme-0-8: rgba(177,9,9,0.8);
+    --couleur-them-0-3: rgba(177,9,9,0.3);
+    --couleur-theme-0-2: rgba(177,9,9,0.2);
+    --couleur-theme-0-1: rgba(177,9,9,0.1);
+    --couleur-theme-0-008: rgba(177,9,9,0.008);
+    --couleur-foncer: rgb(220,0,0);
+    --couleur-foncer-1: rgb(196,2,2);
+    --couleur-foncer-2: rgb(171,11,11);
+    --couleur-foncer-3: rgb(162,14,14);
+    --couleur-blanc: white;
+    --couleur-blanc-0-75: rgba(255,255,255,0.75);
+    --couleur-blanc-0-5: rgba(255,255,255,0.5);
+    --couleur-gris-foncer: rgba(32,34,37,.40);
+    --couleur-gris-foncer-0-6: rgba(32,34,37,.60);
+    --couleur-gris-foncer-0-8: rgba(32,34,37,.80);
+    --couleur-gris-foncer-1: rgba(32,34,37,1);
+    --couleur-rouge: rgb(240,0,6);
+    --couleur-rouge-0-25: rgba(240,0,6,0.25);
+    --couleur-rouge-0-5: rgba(240,0,6,0.5);
+    --couleur-rouge-0-75: rgba(240,0,6,0.75);
+    --background-blur: 0px;
+    --background-brightness: 100%;
+    --color-deco: rgb(240,0,6);
+    
+}
+
+/* CONTENU IMAGE DE FOND ET TRANSPARANCE */
+
+/* Image de Fond */
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://puu.sh/DXZVc/23add7dcf1.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+body::after{
+    z-index:-9999
+}
+body::after,.callout-backdrop::after{
+    content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))
+}
+
+
+/* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
+
+/* effet logo et écriture thème et speudo */
+
+.wrapper-1Rf91z::after {
+    content: "Theme Simplon by MigTM";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    left: 115px;
+    bottom: -205px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px);
+    font-size: 12px;
+    pointer-events: none;
+/*    animation: advert 60s infinite*/
+}
+@keyframes advert {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.side-8zPYf6::after {
+	content: "Theme Simplon by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme Simplon by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
+}
+
+
+.titleBar-AC4pGV::before {
+    content: url(https://puu.sh/Duakv/6912486dd1.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 28.50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTMe 60s infinite
+}
+@media all and (min-width: 0px) and (max-width: 1000px) 
+{
+.titleBar-AC4pGV::before, .titleBar-AC4pGV::after {
+    left: 17%;
+}
+}
+@keyframes MigTMe {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
+    left: 125px;
+}
+
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
+    left: 275px;
+}
+button {
+    font-family: var(--font)!important;
+}
+
+
+/* logo discord inutile */
+
+.wordmark-2iDDfm svg {
+    display: none;
+}
+
+/* logo discord et logo thème personnel */
+
+.titleBar-AC4pGV {
+    z-index: 99999999;
+    background: rgba(0,0,0,0.3);
+    background-image: url(https://puu.sh/DuadE/abc88d52e0.png);
+    margin-top: 0px;
+    height: 26px;
+}
+
+/* boutton exit/réduire/agrandir la fenêtre */
+
+.winButton-iRh8-Z {
+    width: 45px;
+    height: 30px;
+    opacity: 1;
+}
+
+/* taille de la barre du haut */
+
+.typeWindows-1za-n7 {
+    height: 25px;
+}
+
+/* image dans le profil de quelqu'un */
+.inner-1ilYF7 .root-SR8cQa { background-image: url("https://puu.sh/Duav8/f6d0ef88db.png") !important;   
+	background-size:cover !important;
+	background-position:center center !important;
+}
+
+/* Anti-Bug */
+
+body{-webkit-backface-visibility:hidden;backface-visibility:hidden} 
+
+/* envoie Fichier */
+
+
+/* Fichier text */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.three-27ScFD {
+    background-image: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
+}
+/* Fichier code "/>" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.one-2crnLX {
+    background-image: url("https://puu.sh/Duamg/d38b7d4ee7.png");
+}
+/* Fichier code "{}" */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .icon-kyxXVr.two-3BBQI9 {
+    background-image: url("https://puu.sh/Duamj/51057fe970.png");
+}
+/* Fichier vide */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.unknown-3TPTMr {
+	background-image: url("https://puu.sh/Duami/6234a6d237.png");
+}
+
+/* Fichier text */
+img[src="/assets/9f358f466473586417baee7bacfba5ca.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.document-2cvI0u {
+    content: url("https://puu.sh/Duamf/6c1e9a5c0c.png");
+}
+/* Fichier code "/>" */
+img[src="/assets/a11e895b46cde503a094dd31641060a6.svg"], .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.webcode-22GGLX {
+    content: url("https://puu.sh/Duamg/d38b7d4ee7.png");
+}
+/* Fichier code "{}" */
+img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
+    content: url("https://puu.sh/Duamj/51057fe970.png");
+}
+/* Fichier vide */
+img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"]  {
+    content: url("https://puu.sh/Duami/6234a6d237.png") ;
+}
+
