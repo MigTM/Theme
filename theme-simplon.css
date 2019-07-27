@@ -37,18 +37,6 @@
 /* CONTENU IMAGE DE FOND ET TRANSPARANCE */
 
 /* Image de Fond */
-body::after,
-.callout-backdrop,
-.user-popout::before,
-#user-profile-modal .header::before,
-#pubs-container::before,
-.auth-background,
-.auth-tiling-bg,
-.invite-modal .invite-splash,
-.radio-theme.light label,
-.radio-theme.dark label{
-    background-image: url(https://puu.sh/DXZVc/23add7dcf1.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
-}
 body::after{
     z-index:-9999
 }
