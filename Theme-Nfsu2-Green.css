@@ -245,3 +245,7 @@ img[src="/assets/481aa700fab464f2332ca9b5f4eb6ba4.svg"] {
 img[src="/assets/985ea67d2edab4424c62009886f12e44.svg"], img[src="/assets/f167b4196f02faf2dc2e7eb266a24275.svg"]  {
     content: url("https://puu.sh/CmfUV/d9891505d6.png") ;
 }
+/* contenu uniquement pour le theme nfsu2 */
+.userPopout-3XzG_A [mask="url(#svg-mask-status-online)"], .userPopout-3XzG_A [mask="url(#svg-mask-status-online-mobile)"]{
+    fill: var(--couleur-blanc);
+}
