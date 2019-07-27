@@ -87,6 +87,26 @@ body::after,.callout-backdrop::after{
     }
 }
 
+.side-8zPYf6::after {
+	content: "Theme Princesse Pwnz by MigTM";
+	position: absolute;
+	top: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6::before {
+	content: "Theme Princesse Pwnz by MigTM";
+	position: absolute;
+	bottom: -30px;
+	left: 8px;
+	font-size: 12px;
+	color: var(--couleur-theme);
+}
+.side-8zPYf6 {
+	position: relative;
+}
+
 
 .titleBar-AC4pGV::before {
     content: url(https://puu.sh/DSNlM/3fc7d9f58e.png);
