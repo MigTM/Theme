@@ -17,7 +17,7 @@ body::after,
     --main-color: rgb(97,187,63);
     --hover-color: rgb(97,187,63);
     --couleur-theme: rgb(97,187,63);
-    --couleur-theme-fondu: rgb(130,8,8);
+    --couleur-theme-fondu: rgb(90,140,60);
     --couleur-theme-0-35: rgba(97,187,63,0.35);
     --couleur-theme-0-25: rgba(97,187,63,0.25);
     --couleur-theme-0-75: rgba(97,187,63,0.75);
@@ -28,10 +28,10 @@ body::after,
     --couleur-theme-0-2: rgba(97,187,63,0.2);
     --couleur-theme-0-1: rgba(97,187,63,0.1);
     --couleur-theme-0-008: rgba(97,187,63,0.008);
-    --couleur-foncer: rgb(220,0,0);
-    --couleur-foncer-1: rgb(196,2,2);
-    --couleur-foncer-2: rgb(171,11,11);
-    --couleur-foncer-3: rgb(162,14,14);
+    --couleur-foncer: rgb(92,192,60);
+    --couleur-foncer-1: rgb(95,190,62);
+    --couleur-foncer-2: rgb(99,180,65);
+    --couleur-foncer-3: rgb(102,170,67);
     --couleur-blanc: white;
     --couleur-blanc-0-75: rgba(255,255,255,0.75);
     --couleur-blanc-0-5: rgba(255,255,255,0.5);
