@@ -1,9 +1,4 @@
 curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
 chmod +x betterdiscordctl
 sudo mv betterdiscordctl /usr/local/bin
-sudo betterdiscordctl upgrade
-SI PAS INSTALLER
-sudo betterdiscordctl install -s /usr/share/
-SI DEJA INSTALLER 
-sudo betterdiscordctl uninstall -s /usr/share/
 sudo betterdiscordctl install -s /usr/share/
