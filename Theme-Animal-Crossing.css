@@ -73,12 +73,12 @@ body::after,.callout-backdrop::after{
 /* effet logo et écriture thème et speudo */
 
 .wrapper-1Rf91z::after {
-    content: "Theme NFSU2 by MigTM";
+    content: "Theme Animal Crossing by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    left: 115px;
+    left: 97px;
     bottom: -205px;
     position: fixed;
     border-radius: 5px;
@@ -130,7 +130,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before {
-    content: url(https://puu.sh/E2ztN/18c2bf2c76.png);
+    content: url(https://puu.sh/EvfgL/4faaaa5159.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -183,7 +183,7 @@ button {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/ClVRh/7002885d2d.png);
+    background-image: url(https://puu.sh/Evffv/1224d2f4ca.png);
     margin-top: 0px;
     height: 26px;
 }
