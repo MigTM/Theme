@@ -65,7 +65,7 @@ body::after,.callout-backdrop::after{
     color: var(--couleur-theme);
     text-transform: none;
     background: transparent;
-    left: 108px;
+    left: 123px;
     bottom: -205px;
     position: fixed;
     border-radius: 5px;
