@@ -60,7 +60,7 @@ body::after,.callout-backdrop::after{
 /* effet logo et écriture thème et speudo */
 
 .wrapper-1Rf91z::after {
-    content: "Theme Voyageur by MigTM";
+    content: "Theme Zelda by MigTM";
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -87,7 +87,7 @@ body::after,.callout-backdrop::after{
 
 
 .titleBar-AC4pGV::before  {
-    content: url(https://puu.sh/DU10S/fe54174e28.png);
+    content: url(https://puu.sh/EvepD/69141c1297.png);
     z-index: 999999999999;
     color: var(--couleur-theme);
     text-transform: none;
@@ -150,7 +150,7 @@ textarea {
 .titleBar-AC4pGV {
     z-index: 99999999;
     background: rgba(0,0,0,0.3);
-    background-image: url(https://puu.sh/DU10Q/b01b43ad3d.png);
+    background-image: url(https://puu.sh/EveDQ/773390b312.png);
     margin-top: 0px;
     height: 26px;
 }
